@@ -1,5 +1,6 @@
 FROM microsoft/aspnetcore-build
-ENV ASPNETCORE_URLS http://+:80
+EXPOSE 80dir
+
 WORKDIR /app
 COPY project.json .
 RUN dotnet restore

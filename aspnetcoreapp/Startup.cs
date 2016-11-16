@@ -11,7 +11,7 @@ namespace aspnetcoreapp
         {
             app.Run(context =>
             {
-                return context.Response.WriteAsync("Hello from ASP.NET Core! (Windows)");
+                return context.Response.WriteAsync("Hello from ASP.NET Core 1.1.0");
             });
         }
     }
