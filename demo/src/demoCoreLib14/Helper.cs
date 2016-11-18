@@ -7,7 +7,7 @@
         }
        public static string GetVersion()
         {
-            return ".NET Core Class";
+            return ".NET Core Class (Standard 1.4)";
         }
     }
 }
