@@ -7,6 +7,9 @@
   "dependencies": {
     "demoLib": {
       "target": "project"
+    },
+    "demoCoreLib14" : {
+      "target":"project"
     }
   },
   "frameworks": {

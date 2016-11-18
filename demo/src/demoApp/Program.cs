@@ -9,6 +9,9 @@ namespace ConsoleApplication
             demoLib.ClassCore client=new demoLib.ClassCore();
             string name=client.GetName();
             Console.WriteLine(name);
+            var version=CoreLib.Helper.GetVersion();
+            Console.WriteLine(version);
+            
         }
     }
 }
